@@ -11,6 +11,11 @@ It had own products like
 
 where it send charted flights to take high qality images and procees for Roof management and property reports
 
+when there is a Natural disasters like earth quaue or floods, damages for houses , so customers need to claim for house insurance
+
+so they can use eagle view imagery  proof to get claim for house insurace.
+
+
 Here my role is to create a Infrastructure from DEV,TEST,STG,PROD env's
 Using Cloudformation in AWS ,we write cf templates to luanch AWS resources like EC2,VPC,RDS,IAM,S3,LAMBDA,EKS,ECR
 
