@@ -1,0 +1,75 @@
+MY SELF VIJAYBIRRU , CURRENTLY WORKING IN "EAGLEVIEW" ITS A US PRODUCT BASE COMPANY , 
+where it deals with differnt Industries like
+.insurance
+.construction
+.Government
+.solar
+
+It had own products like
+.Imagery
+.Property Reports
+
+where it send charted flights to take high qality images and procees for Roof management and property reports
+
+Here my role is to create a Infrastructure from DEV,TEST,STG,PROD env's
+Using Cloudformation in AWS ,we write cf templates to luanch AWS resources like EC2,VPC,RDS,IAM,S3,LAMBDA,EKS,ECR
+
+and
+
+All our deployments are done in EKS cluster in AWS using a tool called ARGOCD
+
+we use jenkins to BUILD the code and generates artifacts and creating an image using docker file and pushing that image to registry(ECR),
+deploy the application to EKS using ARGOCD(where it takes latest image from ECR to EKS)
+
+The whole thing written in jenkins delarative pipeline in to different stages 
+1.clone the code
+2.Build the code and generated artifacts
+3. code quality(sonar qube)
+3. Create an image using docker file
+4. Pushing image to ECR
+5. Deploy to EKS using ARGOCD Tool ( it had a good UI to see the services and pods status )
+
+and coming to GITHUB
+creating repositories, users, groups, 
+adding users to grps
+Branching protection for master brach, so that no one can directly push the code to master branch instead of that , they can raise PR from source branch to destination branch
+
+and coming to sonarqube 
+creating a users,grps,
+adding users to grps and giving speciffied permissions to grps
+sonar integration to jenkins from the scratch
+writing sonar.properties file to excluse the folders, or files based on the requirement
+
+coming to jenkins 
+writing jenkins pipeline from scratch
+maste and slave configuration 
+multibrach pipeline
+jenkins webhook configuration, so when ever a chage happens in git ,it will trigger the jenkins job
+
+coming to DOCKER
+
+writing docker files to create a image 
+
+docker build -t imagename image:latest
+
+coming to EKS
+
+creating a cluster (AWS)EKS
+creating ns(name spaces) in the cluster
+writing deployment.yaml files
+writing kustomization.yaml files
+writing HPA.yaml files
+
+and we are following agile methodology
+where we follow sprints , 2 weeks a sprint 
+in that sprint planning , userstories were assingned and we need close them with in that sprint 
+using a JIRA ticketing tool
+and retro for what went well in this sprint and what to be done better 
+and for adhoc work(daily issues , jenkins fails)
+we use FS(Fresh service ticketing tool) we should take prority to close FS tickets
+
+Daily standups to give the status of work.
+
+
+
+
