@@ -75,6 +75,10 @@ we use FS(Fresh service ticketing tool) we should take prority to close FS ticke
 
 Daily standups to give the status of work.
 
+---------------------------------------------------
+Involved inn BULE & GREEN Deployment in Production 
 
+the main motto of using Blue green deployment is 
+to reduce the downtime of live application
 
 
